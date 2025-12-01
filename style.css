@@ -1,0 +1,283 @@
+/*_________________________GLOBAL_____________________________*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*_________________________GLOBAL_____________________________*/
+
+
+
+/*________________CABEÇALHO e NAVEGADOR_______________________*/
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    background-color: radial-gradient(circle at 0% 0%, #A139C4 0%, 10.2%, rgba(161, 57, 196, 0) 34%), radial-gradient(circle at 99.58333333333333% 100%, #EB5259 0%, 12.9%, rgba(235, 82, 89, 0) 43%), radial-gradient(circle at 14.583333333333334% 46.666666666666664%, #2B1136 0%, 60%, rgba(43, 17, 54, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #3C1055 0%, 100%, rgba(60, 16, 85, 0) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-direita {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-esquerda {
+    padding-left: 40px;
+}
+
+#image1 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+}
+
+#barra_nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+.lista {
+    list-style: none;
+
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+
+/*________________CABEÇALHO e NAVEGADOR_______________________*/
+
+
+
+/*_________________________MAIN_______________________________*/
+
+#bg-gradiente {
+    background: radial-gradient(circle at 0% 0%, #A139C4 0%, 10.2%, rgba(161, 57, 196, 0) 34%), radial-gradient(circle at 99.58333333333333% 100%, #EB5259 0%, 12.9%, rgba(235, 82, 89, 0) 43%), radial-gradient(circle at 14.583333333333334% 46.666666666666664%, #2B1136 0%, 60%, rgba(43, 17, 54, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #3C1055 0%, 100%, rgba(60, 16, 85, 0) 100%);
+    padding-top: 140px;
+    color: white;
+}
+
+#secao1 h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-left: 94px;
+    font-size: 70px;
+}
+
+#secao1 h3 {
+    padding-top: 35px;
+    font-family: sans-serif;
+    padding-left: 94px;
+    font-weight: 100;
+}
+
+#secao2 {
+    padding-top: 140px;
+    padding-left: 94px;
+}
+
+#secao2 h2 {
+    font-family: "Inter", "Roboto", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    width: 1000px;    /* 3 colunas de 300px + gaps */
+    margin: 0 auto;    /* centraliza horizontalmente */
+    align-items: flex-start;
+    min-height: 70vh;
+    color: white;
+}
+
+
+.subsecao {
+    margin-top: 45px;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    height: 300px; 
+    border: 1px solid white;
+    flex-grow: 1; 
+    font-size:large;   
+}
+
+
+#secao2 .subsecao h2 {
+    margin-top: 0;
+    color: lightgray;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+.subsecao p {
+        flex-grow: 1;
+        padding-top: 8px;
+   }
+
+.subsecao button {
+    margin-top: 15px;
+    background-color: #ff0040;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.subsecao button:hover {
+    background-color: #cc0033;
+}
+
+
+#embranco {
+    background-color: #3c1055;
+    padding: 20%;
+}
+
+#secao3 {
+    background-color: #e8eaed;
+    text-align: center;
+    padding: 80px;
+}
+
+#secao3 p{
+    font-size: 25px;
+    color: #112352;
+    
+}
+
+#secao3 .destaque{
+    font-weight: bold;
+}
+
+#secao4{
+    background-color: white;
+    padding: 50px;  
+    display: flex;
+    gap: 60px;  
+}
+
+#secao4 #left{
+    display: flex;
+    width: 50%;
+    justify-content : flex-end;
+}
+
+#secao4 #right{
+    width: 50%;
+    justify-content : flex-start;
+    
+}
+
+#right h4{
+    border: 1px solid;
+    border-style: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-style: italic;
+    text-align: center; 
+    width: 35%;
+    padding: 3px;
+    font-size: 13px;    
+}
+
+#right .destaque{
+    font-weight: bold;
+}
+
+#right p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #112352;
+    font-size: 30px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+#right ul{
+    padding-top: 2px;
+    padding-left: 30px;
+    text-align: left;
+    color: #112352;
+    width: 80%;
+}
+
+#right ul li{
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;   
+
+}
+
+#secao5{
+    background: radial-gradient(circle at 0% 0%, #A139C4 0%, 10.2%, rgba(161, 57, 196, 0) 34%), radial-gradient(circle at 99.58333333333333% 100%, #EB5259 0%, 12.9%, rgba(235, 82, 89, 0) 43%), radial-gradient(circle at 14.583333333333334% 46.666666666666664%, #2B1136 0%, 60%, rgba(43, 17, 54, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #3C1055 0%, 100%, rgba(60, 16, 85, 0) 100%);
+    padding: 10px;
+}
+
+#secao5 h2{
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-left: 220px;
+    font-size: 40px; 
+    width: 50%;
+    color: white;    
+}
+
+#secao5 p{
+    width: 42%;
+    padding-left: 220px;
+    padding-top: 25px;
+    font-size: 25px;
+    color: white; 
+    font-weight: 100;
+}
+
+#secao5 button {
+    margin-top: 50px;
+    background-color: #ff0040;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 220px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 70px;
+    width: 16%;
+    font-size: 17px;
+}
+
+
+#secao5 button:hover {
+    background-color: #cc0033;
+}
+
+main #secao6 {
+    background-image: url(imagens/bckgr.png);
+}
