@@ -279,7 +279,7 @@ nav {
 }
 
 main #secao6 {
-    padding-top: 95px;
+    padding-top: 40px;
     background: radial-gradient(circle at 0% 0%, #A139C4 0%, 10.2%, rgba(161, 57, 196, 0) 34%), radial-gradient(circle at 99.58333333333333% 100%, #EB5259 0%, 12.9%, rgba(235, 82, 89, 0) 43%), radial-gradient(circle at 14.583333333333334% 46.666666666666664%, #2B1136 0%, 60%, rgba(43, 17, 54, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #3C1055 0%, 100%, rgba(60, 16, 85, 0) 100%);
 }
 
@@ -319,10 +319,11 @@ main #secao6 {
     backdrop-filter:blur(6px);
     box-shadow:2px 2px 8px rgba(0,0,0,0.25);
     padding:25px;
-    margin: 5px;
+    margin-bottom: 10px;
     border:1px solid rgba(255,255,255,0.33);
     width: 300px;
-    height: 373.132px;       
+    height: 400px;
+           
 }
 
 #colunas article .p1{
@@ -345,8 +346,7 @@ main #secao6 {
     font-size: 19px;
     color: #d9d5e0;
     text-align: center;
-    
-}
+  }
 
 #secao6 #colunas article .vid{
     width: 100%;
